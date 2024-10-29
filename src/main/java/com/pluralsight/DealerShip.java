@@ -10,7 +10,7 @@ public class DealerShip {
 
     private List<Vehicle> inventory;
 
-    public DealerShip(String name, String address, String phone, List<Vehicle> inventory) {
+    public DealerShip(String name, String address, String phone) {
         this.name = name;
         this.address = address;
         this.phone = phone;
