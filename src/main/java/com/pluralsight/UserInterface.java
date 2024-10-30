@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class UserInterface {
 
     private DealerShip dealerShip;
-    private DealershipFileManager fileManager = new DealershipFileManager();
     Scanner input = new Scanner(System.in);
 
 
@@ -16,6 +15,9 @@ public class UserInterface {
     public void disPlay(){
 
         init();
+        System.out.println("You are in :" + dealerShip.getName());
+        System.out.println("Our adress is" + dealerShip.getAddress());
+        System.out.println("Our phone number is" + dealerShip.getPhone());
 
         while(true) {
             int choosing = UserDisplayMenu();
@@ -81,10 +83,10 @@ public class UserInterface {
 
     private void init(){
 
-        
+        DealershipFileManager fileManager = new DealershipFileManager();
+        dealerShip = fileManager.getDealership();
+
     }
-
-
 
 
     public void processGetByPriceRequest() {
