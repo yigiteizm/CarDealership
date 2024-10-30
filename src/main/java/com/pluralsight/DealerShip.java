@@ -46,7 +46,7 @@ public class DealerShip {
     public List<Vehicle> getVehiclesByType(String vehicleType) {
         return null;
     }
-  
+
     public String getName() {
         return name;
     }
