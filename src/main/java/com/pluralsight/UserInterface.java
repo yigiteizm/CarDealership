@@ -1,5 +1,6 @@
 package com.pluralsight;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class UserInterface {
@@ -88,9 +89,21 @@ public class UserInterface {
 
     }
 
+    private void displayVehicles(List<Vehicle> vehicle){
+        for (Vehicle currentVehicle : vehicle) {
+            System.out.println(currentVehicle);
+        }
+
 
     public void processGetByPriceRequest() {
 
+            System.out.println("Please Enter minimum price:");
+            double minPrice = input.nextDouble();
+            System.out.println("Please Enter maximum price: ");
+            double maxPrice = input.nextDouble();
+            List<Vehicle> vehicles = dealerShip.getVehiclesByPrice(minPrice, maxPrice);
+            displayVehicles(vehicles);
+        }
 
     }
 
