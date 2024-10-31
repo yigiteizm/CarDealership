@@ -177,5 +177,18 @@ public class UserInterface {
         System.out.println("Thank you! Your vehicle has been successfully added!");
     }
 
-    
+    public void processRemoveVehicleRequest() {
+        System.out.println("Please enter the VIN of the vehicle you wish to remove: ");
+        int vin = input.nextInt();
+        input.nextLine();
+
+        Vehicle vehicle = dealerShip.getVehicleByVin(vin);
+        if (vehicle != null) {
+            dealerShip.removeVehicle(vehicle);
+            fileManager.saveDealership(dealerShip);
+            System.out.println("The vehicle with vin " + vin + " has been successfully removed.");
+        } else {
+            System.out.println("I'm sorry, but no vehicle with vin " + vin + " was found.");
+        }
+    }
     }
