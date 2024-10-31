@@ -62,8 +62,8 @@ public class UserInterface {
 
     public int UserDisplayMenu() {
 
-        System.out.println("Welcome to Dealership Menu: ");
-        System.out.println("Searching Menu: ");
+        System.out.println("Welcome to Car World. ");
+        System.out.println("Car World's Menu: ");
         System.out.println("1- Search vehicles within a price range: ");
         System.out.println("2- Search vehicles by make/model: ");
         System.out.println("3- Search vehicles by year: ");
@@ -140,7 +140,7 @@ public class UserInterface {
     }
 
     public void processGetByVehicleTypeRequest() {
-        System.out.println("Could you kindly enter the type of vehicle (car, truck, SUV, van): ");
+        System.out.println("Could you kindly enter the type of vehicle (Sedan, Truck, SUV, van): ");
         String type = input.nextLine();
         List<Vehicle> vehicles = dealerShip.getVehiclesByType(type);
         displayVehicles(vehicles);
@@ -160,7 +160,7 @@ public class UserInterface {
         String make = input.nextLine();
         System.out.println("Now, please enter the model: ");
         String model = input.nextLine();
-        System.out.println("What type is the vehicle (car, truck, SUV, van)? ");
+        System.out.println("What type is the vehicle (Sedan, Truck, SUV, Van)? ");
         String type = input.nextLine();
         System.out.println("Could you specify the color? ");
         String color = input.nextLine();

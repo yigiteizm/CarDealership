@@ -53,15 +53,32 @@ Follow these steps to get your application running within IntelliJ IDEA:
 ## Demo
 Here are screenshots that show the main features of the application.
 
+Car World's user-friendly main menu screenshot:
 
+![Car World Main Menu.JPG](imgs%2FCar%20World%20Main%20Menu.JPG)
+
+Listing existing inventory Feature's screenshot:
+
+![Listing option.JPG](imgs%2FListing%20option.JPG)
+
+Searching by Make and Model Feature's screenshot:
+
+![Searching.JPG](imgs%2FSearching.JPG)
+
+Car adding to the inventory Feature's screenshot:
+
+![Car Adding.JPG](imgs%2FCar%20Adding.JPG)
+
+Car removing from the inventory Feature's screenshot:
+
+![Car removing.JPG](imgs%2FCar%20removing.JPG)
 
 
 
 ## Future Work
 
 Outline potential future enhancements or functionalities you might consider adding:
-
-
+A finance calculator can be added that calculates and shows the monthly payments for a user deciding to purchase a car.
 
 ## Resources
 
