@@ -23,7 +23,7 @@ public class DealershipFileManager {
 
                     dealership = new DealerShip(dealerShipName, dealerShipAddress, dealerShipPhoneNumber);
                 } else {
-                    // Araç bilgilerini oku ve nesne oluştur
+
                     int vin = Integer.parseInt(parts[0]);
                     int year = Integer.parseInt(parts[1]);
                     String make = parts[2];

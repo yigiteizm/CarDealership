@@ -17,9 +17,8 @@ public class UserInterface {
     public void disPlay() {
 
         init();
-        System.out.println("You are in :" + dealerShip.getName());
-        System.out.println("Our adress is" + dealerShip.getAddress());
-        System.out.println("Our phone number is" + dealerShip.getPhone());
+        System.out.println("Welcome to " + dealerShip.getName() + " " +  dealerShip.getAddress());
+        System.out.println("Communication: " + dealerShip.getPhone());
 
         while (true) {
             int choosing = UserDisplayMenu();
