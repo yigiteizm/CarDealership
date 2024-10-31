@@ -48,7 +48,7 @@ public class DealershipFileManager {
 
     public void saveDealership(DealerShip dealership) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("dealership.csv"))) { // Overwrite mode
-          
+
             writer.write(dealership.getName() + "|" +
                     dealership.getAddress() + "|" +
                     dealership.getPhone());

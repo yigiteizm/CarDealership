@@ -1,12 +1,31 @@
-# Dealership Application Project
+# Car Dealership Application Project
 
-## Description of the Dealership Application Project
+## Description of the Car Dealership Project
 
+The Car Dealership project is a basic Java program made for managing the stock of a car dealership.
+It gives users an easy way to add new cars, remove cars, look at all available vehicles, and search by brand, like Chevrolet. 
+The program uses a CSV file to keep the car data, making it simple to update and find vehicle records.
+ Users can also follow these steps:
 
+1. Searching for Vehicles by Type
+2. Listing All Vehicles in the Inventory
+3. Adding a New Vehicle to the Inventory
+4. Removing a Vehicle from the Inventory
+5. Searching for Vehicles Within a Price Range
+6. Searching for Vehicles by Year
+7. Searching for Vehicles by Color
+8. Searching for Vehicles by Mileage Range
+9. Searching for Vehicles by Type
 
-## User Stories of Financial Tracker Application Project
-
-
+## User Stories of Car Dealership Application Project
+As a user, I want to list all vehicles in the inventory, so that I can explore the car options.
+As a user, I want to add a new vehicle to the inventory, so that I can manage the car inventory.
+As a user, I want to remove old vehicles from the inventory, so that I can manage the car inventory.
+As a user, I want to search for vehicles by price in the inventory, so that I can look for car options according to my budget.
+As a user, I want to search for vehicles by year in the inventory, so that I can filter cars within my age threshold.
+As a user, I want to search for vehicles by color in the inventory, so that I can choose my favorite car.
+As a user, I want to search for vehicles by mileage range in the inventory, so that I can see less-used cars.
+As a user, I want to search for vehicles by type in the inventory, so that I can see car options such as SUV, van, or truck.
 
 ## Setup
 
@@ -25,7 +44,7 @@ Follow these steps to get your application running within IntelliJ IDEA:
 2. Select "Open" and navigate to the directory where you cloned or downloaded the project.
 3. After the project opens, wait for IntelliJ to index the files and set up the project.
 4. Find the main class with the `public static void main(String[] args)` method.
-5. Right-click on the file and select 'Run FinancialTracker.main()'' to start the application.
+5. Right-click on the file and select 'Run Program.main()'' to start the application.
 
 ## Technologies Used
 - Java: Amazon Corretto version 17.0.12.
@@ -37,9 +56,11 @@ Here are screenshots that show the main features of the application.
 
 
 
+
 ## Future Work
 
 Outline potential future enhancements or functionalities you might consider adding:
+
 
 
 ## Resources
