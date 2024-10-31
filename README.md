@@ -7,25 +7,24 @@ It gives users an easy way to add new cars, remove cars, look at all available v
 The program uses a CSV file to keep the car data, making it simple to update and find vehicle records.
  Users can also follow these steps:
 
-1. Searching for Vehicles by Type
-2. Listing All Vehicles in the Inventory
-3. Adding a New Vehicle to the Inventory
-4. Removing a Vehicle from the Inventory
+1. Listing All Vehicles in the Inventory
+2. Adding a New Vehicle to the Inventory
+3. Removing a Vehicle from the Inventory
+4. Searching for Vehicles by Type
 5. Searching for Vehicles Within a Price Range
 6. Searching for Vehicles by Year
 7. Searching for Vehicles by Color
 8. Searching for Vehicles by Mileage Range
-9. Searching for Vehicles by Type
 
 ## User Stories of Car Dealership Application Project
-As a user, I want to list all vehicles in the inventory, so that I can explore the car options.
-As a user, I want to add a new vehicle to the inventory, so that I can manage the car inventory.
-As a user, I want to remove old vehicles from the inventory, so that I can manage the car inventory.
-As a user, I want to search for vehicles by price in the inventory, so that I can look for car options according to my budget.
-As a user, I want to search for vehicles by year in the inventory, so that I can filter cars within my age threshold.
-As a user, I want to search for vehicles by color in the inventory, so that I can choose my favorite car.
-As a user, I want to search for vehicles by mileage range in the inventory, so that I can see less-used cars.
-As a user, I want to search for vehicles by type in the inventory, so that I can see car options such as SUV, van, or truck.
+1. As a user, I want to list all vehicles in the inventory, so that I can explore the car options.
+2. As a user, I want to add a new vehicle to the inventory, so that I can manage the car inventory.
+3. As a user, I want to remove old vehicles from the inventory, so that I can manage the car inventory.
+4. As a user, I want to search for vehicles by price in the inventory, so that I can look for car options according to my budget.
+5. As a user, I want to search for vehicles by year in the inventory, so that I can filter cars within my age threshold.
+6. As a user, I want to search for vehicles by color in the inventory, so that I can choose my favorite car.
+7. As a user, I want to search for vehicles by mileage range in the inventory, so that I can see less-used cars.
+8. As a user, I want to search for vehicles by type in the inventory, so that I can see car options such as SUV, van, or truck.
 
 ## Setup
 
@@ -51,25 +50,25 @@ Follow these steps to get your application running within IntelliJ IDEA:
 - IntelliJ IDEA.
 
 ## Demo
-Here are screenshots that show the main features of the application.
+- Here are screenshots that show the main features of the application.
 
-Car World's user-friendly main menu screenshot:
+### Car World's user-friendly main menu screenshot:
 
 ![Car World Main Menu.JPG](imgs%2FCar%20World%20Main%20Menu.JPG)
 
-Listing existing inventory Feature's screenshot:
+### Listing existing inventory Feature's screenshot:
 
 ![Listing option.JPG](imgs%2FListing%20option.JPG)
 
-Searching by Make and Model Feature's screenshot:
+### Searching by Make and Model Feature's screenshot:
 
 ![Searching.JPG](imgs%2FSearching.JPG)
 
-Car adding to the inventory Feature's screenshot:
+### Car adding to the inventory Feature's screenshot:
 
 ![Car Adding.JPG](imgs%2FCar%20Adding.JPG)
 
-Car removing from the inventory Feature's screenshot:
+### Car removing from the inventory Feature's screenshot:
 
 ![Car removing.JPG](imgs%2FCar%20removing.JPG)
 
