@@ -48,13 +48,13 @@ public class DealershipFileManager {
 
     public void saveDealership(DealerShip dealership) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("dealership.csv"))) { // Overwrite mode
-            // Bayi bilgilerini yaz
+          
             writer.write(dealership.getName() + "|" +
                     dealership.getAddress() + "|" +
                     dealership.getPhone());
             writer.newLine();
 
-            // Araç bilgilerini yaz
+
             for (Vehicle vehicle : dealership.getAllVehicles()) {
                 writer.write(vehicle.getVin() + "|" +
                         vehicle.getYear() + "|" +
