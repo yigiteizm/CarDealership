@@ -32,7 +32,6 @@ public class Vehicle {
         this.vin = vin;
     }
 
-
     public int getYear() {
         return year;
     }

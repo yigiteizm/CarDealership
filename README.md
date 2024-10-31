@@ -74,7 +74,6 @@ Car removing from the inventory Feature's screenshot:
 ![Car removing.JPG](imgs%2FCar%20removing.JPG)
 
 
-
 ## Future Work
 
 Outline potential future enhancements or functionalities you might consider adding:
